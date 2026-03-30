@@ -45,7 +45,7 @@ interface SocialBarProps {
 
 export function SocialBar({ socials }: SocialBarProps) {
   return (
-    <div className="flex items-center justify-center gap-5 mt-8">
+    <div className="flex items-center justify-center gap-6 mt-8">
       {socials.map((social) => {
         const Icon = socialIcons[social.platform];
         return (
@@ -54,10 +54,13 @@ export function SocialBar({ socials }: SocialBarProps) {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gold/50 transition-all duration-300 hover:text-gold hover:scale-110 hover:drop-shadow-[0_0_8px_rgba(201,168,76,0.4)]"
+            className="group relative p-2 rounded border border-neon/20 hover:border-neon transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-neon/30 bg-darker"
             aria-label={social.platform}
           >
-            <Icon />
+            <div className="text-neon/60 group-hover:text-neon transition-colors">
+              <Icon />
+            </div>
+            <div className="absolute inset-0 rounded border border-pink/0 group-hover:border-pink/30 transition-all duration-300"></div>
           </Link>
         );
       })}

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tree of Life | Links",
-  description: "My personal link tree",
+  title: "CYBER | Links",
+  description: "Digital presence in the matrix",
 };
 
 export default function RootLayout({
