@@ -200,7 +200,7 @@ export default function Home() {
           <div className="text-center mt-12 text-text-muted text-sm animate-slide-in" style={{ animationDelay: '1s' }}>
             <div className="flex items-center justify-center gap-2">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
-              <span>Built with Next.js</span>
+              <span>Forged with Next.js</span>
               <div className="w-2 h-2 bg-accent-secondary rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
             </div>
           </div>

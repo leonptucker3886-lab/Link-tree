@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leon Tucker | Links",
-  description: "Developer & Digital Creator",
+  title: "Sir Leon Tucker | Knight of Code",
+  description: "Code Knight & Digital Sorcerer",
 };
 
 export default function RootLayout({
