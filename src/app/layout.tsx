@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CYBER | Links",
-  description: "Digital presence in the matrix",
+  title: "Leon Tucker | Links",
+  description: "Developer & Digital Creator",
 };
 
 export default function RootLayout({
@@ -26,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        style={{ backgroundColor: '#1a1410' }}
       >
         {children}
       </body>
