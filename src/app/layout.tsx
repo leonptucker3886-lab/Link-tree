@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Template",
-  description: "A minimal Next.js starter template",
+  title: "Tree of Life | Links",
+  description: "My personal link tree",
 };
 
 export default function RootLayout({
