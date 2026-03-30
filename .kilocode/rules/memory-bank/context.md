@@ -1,10 +1,10 @@
-# Active Context: Modern Linktree
+# Active Context: Knightly Linktree
 
 ## Current State
 
-**Status**: Modern Linktree page built and deployed
+**Status**: Knightly Linktree page built and deployed
 
-The project is a clean, modern Linktree-style page built with Next.js 16. It features a sophisticated aesthetic with colorful geometric elements and smooth animations.
+The project is a knightly-themed Linktree-style page built with Next.js 16. It features an elegant aesthetic with golden accents, geometric elements, and knightly terminology.
 
 ## Recently Completed
 
@@ -43,10 +43,11 @@ Edit `src/config/profile.ts` to change:
 
 ## Design Features
 
+- Knightly aesthetic with golden accents replacing purple elements
 - Clean dark gradient background with floating geometric shapes
 - Smooth slide-in animations and floating gradient orbs
 - Professional 2-column grid with glass-morphism cards
-- Colorful accent palette with gradient text effects
+- Knightly terminology: Castle, Forge, Chronicles, Battlements, etc.
 - Modern hover effects and smooth transitions
 - Social buttons with contemporary styling
 
@@ -55,4 +56,4 @@ Edit `src/config/profile.ts` to change:
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
-| Current | Transformed to clean modern design with colorful geometric elements, smooth animations, and professional aesthetic |
+| Current | Transformed to knightly theme with golden accents, aesthetic avatar, and knightly terminology throughout |

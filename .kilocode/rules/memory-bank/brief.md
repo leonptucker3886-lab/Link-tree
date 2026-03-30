@@ -1,14 +1,14 @@
-# Project Brief: Modern Linktree
+# Project Brief: Knightly Linktree
 
 ## Purpose
 
-A clean, modern Linktree-style personal link page. It showcases a professional digital presence with sophisticated design featuring colorful geometric elements, smooth animations, and a refined aesthetic that balances visual appeal with usability.
+A knightly-themed Linktree-style personal link page. It showcases a code knight's digital realm with elegant design featuring golden accents, geometric elements, and knightly terminology that combines medieval charm with modern web development prowess.
 
 ## Target Users
 
-- Professionals and creators seeking a polished online presence
-- Modern individuals who appreciate clean, contemporary design
-- Anyone wanting an elegant yet visually striking link page
+- Developers with a unique personality seeking distinctive online presence
+- Creative professionals who want to stand out from conventional portfolios
+- Anyone wanting a memorable, themed link page with character
 
 ## Core Use Case
 
