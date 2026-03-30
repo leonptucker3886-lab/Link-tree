@@ -1,10 +1,10 @@
-# Active Context: Next.js Starter Template
+# Active Context: Tree of Life Linktree
 
 ## Current State
 
-**Template Status**: ✅ Ready for development
+**Status**: Tree of Life Linktree page built and deployed
 
-The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. It's ready for AI-assisted expansion to build any type of application.
+The project is a Tree of Life themed Linktree-style page built with Next.js 16. It features an organic, nature-inspired design with a dark earth-tone palette.
 
 ## Recently Completed
 
@@ -14,74 +14,45 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
+- [x] Tree of Life themed Linktree page
+- [x] SVG tree illustration as subtle background
+- [x] Falling leaf animation
+- [x] Organic link cards with leaf icons
+- [x] Social media bar (Twitter, GitHub, LinkedIn, Instagram)
+- [x] Warm earth-tone color palette (bark, leaf, gold, soil, cream)
 
 ## Current Structure
 
 | File/Directory | Purpose | Status |
 |----------------|---------|--------|
-| `src/app/page.tsx` | Home page | ✅ Ready |
-| `src/app/layout.tsx` | Root layout | ✅ Ready |
-| `src/app/globals.css` | Global styles | ✅ Ready |
+| `src/app/page.tsx` | Tree of Life Linktree page | ✅ Built |
+| `src/app/layout.tsx` | Root layout with metadata | ✅ Ready |
+| `src/app/globals.css` | Tailwind + custom animations | ✅ Ready |
+| `src/config/profile.ts` | Profile data & links config | ✅ Ready |
+| `src/components/SocialBar.tsx` | Social media icons bar | ✅ Built |
 | `.kilocode/` | AI context & recipes | ✅ Ready |
 
-## Current Focus
+## How to Customize
 
-The template is ready. Next steps depend on user requirements:
+Edit `src/config/profile.ts` to change:
+- `name` - Display name
+- `bio` - Tagline / description
+- `avatar` - Profile image URL
+- `links[]` - Array of link objects with `title` and `url`
+- `socials[]` - Array of social objects with `platform` and `url`
 
-1. What type of application to build
-2. What features are needed
-3. Design/branding preferences
+## Design Features
 
-## Quick Start Guide
-
-### To add a new page:
-
-Create a file at `src/app/[route]/page.tsx`:
-```tsx
-export default function NewPage() {
-  return <div>New page content</div>;
-}
-```
-
-### To add components:
-
-Create `src/components/` directory and add components:
-```tsx
-// src/components/ui/Button.tsx
-export function Button({ children }: { children: React.ReactNode }) {
-  return <button className="px-4 py-2 bg-blue-600 text-white rounded">{children}</button>;
-}
-```
-
-### To add a database:
-
-Follow `.kilocode/recipes/add-database.md`
-
-### To add API routes:
-
-Create `src/app/api/[route]/route.ts`:
-```tsx
-import { NextResponse } from "next/server";
-
-export async function GET() {
-  return NextResponse.json({ message: "Hello" });
-}
-```
-
-## Available Recipes
-
-| Recipe | File | Use Case |
-|--------|------|----------|
-| Add Database | `.kilocode/recipes/add-database.md` | Data persistence with Drizzle + SQLite |
-
-## Pending Improvements
-
-- [ ] Add more recipes (auth, email, etc.)
-- [ ] Add example components
-- [ ] Add testing setup recipe
+- Dark soil background with subtle tree SVG overlay
+- Falling leaf animation (8 leaves, varied timing)
+- Link cards with organic clip-path shape and gold hover glow
+- Leaf icons next to each link
+- Staggered grow-in entrance animations
+- Social icons with gold hover effects
 
 ## Session History
 
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
+| Current | Built Tree of Life themed Linktree page with SVG tree, falling leaves, organic link cards, social bar |

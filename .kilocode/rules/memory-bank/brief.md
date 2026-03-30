@@ -1,23 +1,21 @@
-# Project Brief: Next.js Starter Template
+# Project Brief: Tree of Life Linktree
 
 ## Purpose
 
-This is a minimal Next.js starter template designed for AI-assisted development. It provides a clean foundation that can be extended to build any type of web application through interaction with an AI assistant.
+A Tree of Life themed Linktree-style personal link page. It showcases a person's important links (website, portfolio, blog, social media) through an organic, nature-inspired design with a dark earth-tone palette, SVG tree illustration, falling leaf animations, and warm golden accents.
 
 ## Target Users
 
-- Developers wanting a clean Next.js starting point
-- Users building applications through AI-assisted coding
-- Teams needing a standardized, modern Next.js setup
+- The site owner who wants to share their links
+- Visitors clicking through to the owner's various platforms and content
 
 ## Core Use Case
 
-Users describe what they want to build to an AI assistant, which then expands this template by:
-
-1. Adding components and pages as needed
-2. Installing additional dependencies
-3. Setting up databases, authentication, etc. using recipes
-4. Customizing styling and branding
+A single-page link tree where:
+1. Profile section shows avatar, name, and bio
+2. Link cards display clickable links with organic leaf icons
+3. Social media bar at the bottom connects to Twitter, GitHub, LinkedIn, Instagram
+4. Falling leaves and tree SVG create an immersive nature atmosphere
 
 ## Key Requirements
 
@@ -27,22 +25,26 @@ Users describe what they want to build to an AI assistant, which then expands th
 - TypeScript for type safety
 - Tailwind CSS 4 for styling
 - ESLint for code quality
-- Clean, minimal starting structure
 - Bun as package manager
+- Tree of Life visual theme with earth-tone colors
+- Easy customization via config file (`src/config/profile.ts`)
 
 ### Nice to Have
 
 - Recipe system for common additions (database, auth)
 - Memory bank for AI context persistence
-- Clear development guidelines
+- More link customization options (icons, colors per link)
 
 ## Success Metrics
 
 - Clean, zero-error TypeScript setup
 - Passing lint and type checks
+- Beautiful, organic Tree of Life aesthetic
+- Fast page load with optimized SVGs
 
 ## Constraints
 
-- Minimal dependencies by default
+- Minimal dependencies (no extra libraries beyond base template)
 - Framework: Next.js 16 + React 19 + Tailwind CSS 4
 - Package manager: Bun
+- All visuals done with inline SVGs and CSS (no image assets needed)
