@@ -69,9 +69,7 @@
   animation-delay: var(--delay, 0s);
 }
 
-body {
-  background: var(--color-soil);
-}
+/* body background now set inline */
 
 /* Organic link card shape */
 .link-card {
