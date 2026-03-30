@@ -1,10 +1,10 @@
-# Active Context: Tree of Life Linktree
+# Active Context: Cyberpunk Linktree
 
 ## Current State
 
-**Status**: Tree of Life Linktree page built and deployed
+**Status**: Cyberpunk Linktree page built and deployed
 
-The project is a Tree of Life themed Linktree-style page built with Next.js 16. It features an organic, nature-inspired design with a dark earth-tone palette.
+The project is a cyberpunk-themed Linktree-style page built with Next.js 16. It features an edgy, modern aesthetic with neon colors, geometric patterns, and chaotic layout.
 
 ## Recently Completed
 
@@ -14,20 +14,20 @@ The project is a Tree of Life themed Linktree-style page built with Next.js 16. 
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
-- [x] Tree of Life themed Linktree page
-- [x] SVG tree illustration as subtle background
-- [x] Falling leaf animation
-- [x] Organic link cards with leaf icons
-- [x] Social media bar (Twitter, GitHub, LinkedIn, Instagram)
-- [x] Warm earth-tone color palette (bark, leaf, gold, soil, cream)
+- [x] Cyberpunk themed Linktree page
+- [x] Circuit patterns and grid background
+- [x] Animated scanlines and data streams
+- [x] Chaotic grid layout with sharp-corner cards
+- [x] Neon color palette (green, purple, pink) with glitch effects
+- [x] Social media bar with cyberpunk styling
 
 ## Current Structure
 
 | File/Directory | Purpose | Status |
 |----------------|---------|--------|
-| `src/app/page.tsx` | Tree of Life Linktree page | ✅ Built |
+| `src/app/page.tsx` | Cyberpunk Linktree page | ✅ Built |
 | `src/app/layout.tsx` | Root layout with metadata | ✅ Ready |
-| `src/app/globals.css` | Tailwind + custom animations | ✅ Ready |
+| `src/app/globals.css` | Tailwind + cyberpunk animations | ✅ Ready |
 | `src/config/profile.ts` | Profile data & links config | ✅ Ready |
 | `src/components/SocialBar.tsx` | Social media icons bar | ✅ Built |
 | `.kilocode/` | AI context & recipes | ✅ Ready |
@@ -35,24 +35,24 @@ The project is a Tree of Life themed Linktree-style page built with Next.js 16. 
 ## How to Customize
 
 Edit `src/config/profile.ts` to change:
-- `name` - Display name
-- `bio` - Tagline / description
-- `avatar` - Profile image URL
+- `name` - Display name (try cyberpunk style like "CYBER_VANT")
+- `bio` - Tagline / description (use tech/matrix terminology)
+- `avatar` - Profile image URL (dark backgrounds work best)
 - `links[]` - Array of link objects with `title` and `url`
 - `socials[]` - Array of social objects with `platform` and `url`
 
 ## Design Features
 
-- Dark soil background with subtle tree SVG overlay
-- Falling leaf animation (8 leaves, varied timing)
-- Link cards with organic clip-path shape and gold hover glow
-- Leaf icons next to each link
-- Staggered grow-in entrance animations
-- Social icons with gold hover effects
+- Dark matrix background with circuit grid overlay
+- Animated scanlines and floating data streams
+- Chaotic grid layout with sharp-corner neon-bordered cards
+- Glitch text effects and neon color palette
+- Geometric shapes and circuit nodes as high-res graphics
+- Social icons with cyberpunk hover effects
 
 ## Session History
 
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
-| Current | Built Tree of Life themed Linktree page with SVG tree, falling leaves, organic link cards, social bar |
+| Current | Transformed to edgy cyberpunk theme with high-res graphics, chaotic grid layout, neon colors, and matrix aesthetic |
