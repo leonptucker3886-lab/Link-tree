@@ -1,7 +1,7 @@
 export const profile = {
-  name: "CYBER_VANT",
-  bio: "CODE_RUNNER // MATRIX_NAVIGATOR // REALITY_HACKER",
-  avatar: "https://api.dicebear.com/9.x/initials/svg?seed=CV&backgroundColor=0a0a0a&color=00ff88",
+  name: "Leon Tucker",
+  bio: "DEVELOPER // CREATOR // DIGITAL_INNOVATOR",
+  avatar: "https://api.dicebear.com/9.x/initials/svg?seed=LT&backgroundColor=0a0a0a&color=00ff88",
   links: [
     { title: "MAINFRAME", url: "https://example.com" },
     { title: "CODE_VAULT", url: "https://portfolio.example.com" },
