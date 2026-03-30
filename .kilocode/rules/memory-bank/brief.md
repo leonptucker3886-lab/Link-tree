@@ -1,22 +1,22 @@
-# Project Brief: Cyberpunk Linktree
+# Project Brief: Modern Linktree
 
 ## Purpose
 
-A cyberpunk-themed Linktree-style personal link page. It showcases a digital presence in "the matrix" with an edgy, modern aesthetic featuring neon colors, geometric patterns, circuit overlays, and a rebellious chaotic layout instead of traditional flows.
+A clean, modern Linktree-style personal link page. It showcases a professional digital presence with sophisticated design featuring colorful geometric elements, smooth animations, and a refined aesthetic that balances visual appeal with usability.
 
 ## Target Users
 
-- Tech-savvy individuals with a digital/developer identity
-- Cyberpunk enthusiasts and modern creatives
-- Anyone wanting a high-tech, futuristic online presence
+- Professionals and creators seeking a polished online presence
+- Modern individuals who appreciate clean, contemporary design
+- Anyone wanting an elegant yet visually striking link page
 
 ## Core Use Case
 
 A single-page link hub where:
-1. Profile displays with glitch text effects and neon accents
-2. Links arranged in a chaotic grid with sharp-corner cards and hover glows
-3. Social media icons with cyberpunk styling
-4. Background features circuit patterns, animated scanlines, and data streams
+1. Profile displays with gradient text effects and modern typography
+2. Links arranged in an organized grid with glass-morphism cards and smooth hover effects
+3. Social media icons with contemporary button styling
+4. Background features floating geometric shapes and gradient orbs
 
 ## Key Requirements
 
@@ -27,8 +27,8 @@ A single-page link hub where:
 - Tailwind CSS 4 for styling
 - ESLint for code quality
 - Bun as package manager
-- Cyberpunk visual theme with neon color palette
-- Chaotic grid layout instead of traditional flow
+- Clean modern visual theme with colorful accent palette
+- Professional grid layout with smooth animations
 - Easy customization via config file (`src/config/profile.ts`)
 
 ### Nice to Have
@@ -41,7 +41,7 @@ A single-page link hub where:
 
 - Clean, zero-error TypeScript setup
 - Passing lint and type checks
-- Edgy, modern cyberpunk aesthetic
+- Sophisticated, modern aesthetic
 - Fast page load with optimized CSS animations
 
 ## Constraints
