@@ -240,13 +240,10 @@ export default function Home() {
         {/* Social Icons */}
         <SocialBar socials={profile.socials} />
 
-        {/* Footer vine */}
-        <div className="mt-10 flex flex-col items-center gap-2 opacity-40">
-          <svg width={2} height={40} viewBox="0 0 2 40" className="text-leaf">
-            <line x1={1} y1={0} x2={1} y2={40} stroke="currentColor" strokeWidth={1} strokeDasharray="3 3" />
-          </svg>
-          <svg width={12} height={12} viewBox="0 0 20 20" className="text-leaf">
-            <path d="M10 0 C15 5 18 10 10 20 C2 10 5 5 10 0Z" fill="currentColor" />
+        {/* Footer material design icon */}
+        <div className="mt-10 flex items-center justify-center">
+          <svg width={20} height={20} viewBox="0 0 24 24" fill="currentColor" className="text-gold/40">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
           </svg>
         </div>
       </div>
