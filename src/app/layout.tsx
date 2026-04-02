@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
+import { ThemeProvider } from "@/providers/ThemeProvider";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -16,7 +17,15 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Leon Tucker | Developer",
-  description: "Full-Stack Developer — Building modern digital experiences.",
+  description:
+    "Full-Stack Developer — Building modern digital experiences with code, creativity, and AI.",
+  keywords: ["developer", "full-stack", "portfolio", "web development", "React", "Next.js"],
+  authors: [{ name: "Leon Tucker" }],
+  openGraph: {
+    title: "Leon Tucker | Developer",
+    description: "Full-Stack Developer — Building modern digital experiences.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +34,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${jakarta.variable} ${jetbrains.variable} antialiased`}>
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
