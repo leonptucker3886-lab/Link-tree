@@ -279,7 +279,7 @@ export default function MiniGames() {
             className="text-xs font-semibold uppercase tracking-[0.2em] mb-3 block"
             style={{ color: "var(--color-accent)" }}
           >
-            Play Zone
+            Procrastination Station
           </span>
           <h2
             className="text-3xl sm:text-4xl font-bold tracking-tight mb-4"
@@ -291,7 +291,7 @@ export default function MiniGames() {
             className="text-base sm:text-lg max-w-xl mx-auto"
             style={{ color: "var(--color-text-secondary)" }}
           >
-            Because portfolios should be fun. Kill some time, flex your skills.
+            You&apos;re already here. Might as well waste some time productively.
           </p>
         </motion.div>
 

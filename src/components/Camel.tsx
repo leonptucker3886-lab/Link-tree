@@ -4,9 +4,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const camelQuotes = [
-  "I asked my camel for a ride. He said 'hump day' and walked away.",
-  "A camel is a horse designed by a committee that had a deadline.",
-  "My camel has better posture than most developers I know.",
+  "I tried to make a website for camels. It had too many hiccups.",
+  "A camel is just a horse that survived code review.",
+  "My camel has better posture than my git commit history.",
 ];
 
 export default function Camel() {
@@ -30,7 +30,7 @@ export default function Camel() {
             className="text-xs font-semibold uppercase tracking-[0.2em] mb-3 block"
             style={{ color: "var(--color-accent)" }}
           >
-            Intermission
+            Mandatory Fun
           </span>
           <h2
             className="text-3xl sm:text-4xl font-bold tracking-tight mb-4"
@@ -91,16 +91,16 @@ export default function Camel() {
             className="text-sm sm:text-base font-medium"
             style={{ color: "var(--color-accent)" }}
           >
-            Why did the camel build this portfolio?
+            Why did the camel become a developer?
           </p>
           <p
             className="text-lg sm:text-xl font-bold mt-2"
             style={{ color: "var(--color-text)" }}
           >
-            Because he wanted to show he could handle any <em>hump</em> in the road.
+            Because he could handle any <em>hump</em> in the deployment pipeline.
           </p>
           <p className="text-xs mt-4" style={{ color: "var(--color-text-muted)" }}>
-            (You camel believe you scrolled this far)
+            (You camel believe you scrolled this far — but here we are)
           </p>
         </motion.div>
       </div>

@@ -40,11 +40,11 @@ export default function Footer() {
               </svg>
             </motion.a>
 
-            <p
+              <p
               className="text-xs tracking-widest uppercase"
               style={{ color: "var(--color-text-muted)" }}
             >
-              Built with Next.js
+              Handcrafted with caffeine & questionable life choices
             </p>
           </div>
         </div>

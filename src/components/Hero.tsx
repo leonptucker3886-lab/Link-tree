@@ -116,7 +116,7 @@ export default function Hero() {
             />
           </span>
           <span className="text-xs font-medium" style={{ color: "var(--color-text-secondary)" }}>
-            Available for new projects
+            Currently caffeinated & accepting projects
           </span>
         </motion.div>
 
@@ -158,7 +158,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a href="#projects" className="hire-btn text-sm sm:text-base">
-            <span>View My Work</span>
+            <span>See the Madness</span>
           </a>
         </motion.div>
 

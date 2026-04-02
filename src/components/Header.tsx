@@ -107,10 +107,10 @@ function ContactPopup({ onClose }: { onClose: () => void }) {
         className="relative glass-card p-8 text-center max-w-sm w-full"
       >
         <h3 className="text-xl font-bold mb-2" style={{ color: "var(--color-text)" }}>
-          Let&apos;s Connect
+          Let&apos;s Build Something Cool
         </h3>
         <p className="text-sm mb-6" style={{ color: "var(--color-text-secondary)" }}>
-          Pick your poison
+          Choose your weapon
         </p>
         <div className="flex gap-4 justify-center">
           <a
