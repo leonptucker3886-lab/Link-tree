@@ -37,7 +37,7 @@ export default function Projects() {
             className="text-base sm:text-lg max-w-xl mx-auto"
             style={{ color: "var(--color-text-secondary)" }}
           >
-            A selection of things I&apos;ve crafted — from AI tools to full-stack platforms.
+            All Web Apps listed below are current projects. Things may not work. If you need anything built, I am your guy. Apps for work, customers, inventory or even one for your dog (that&apos;s ruff)
           </p>
         </motion.div>
 
