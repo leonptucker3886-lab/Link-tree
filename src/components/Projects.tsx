@@ -37,7 +37,7 @@ export default function Projects() {
             className="text-base sm:text-lg max-w-xl mx-auto"
             style={{ color: "var(--color-text-secondary)" }}
           >
-            A peek under the hood — live demos of what I&apos;ve been shipping. Need something built for your biz, your workflow, or a ruff app for your dog 🐕? Let&apos;s talk.
+            A peek under the hood — live demos of what I&apos;ve been forging. Need something built for your biz, your workflow, or a ruff app for your dog 🐕? Let&apos;s talk.
           </p>
         </motion.div>
 
