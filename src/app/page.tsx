@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { profile } from "@/config/profile";
 import { SocialBar } from "@/components/SocialBar";
@@ -145,18 +144,41 @@ export default function Home() {
 
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4 py-16 sm:px-6">
         <div className="w-full max-w-md">
-          {/* Avatar */}
+          {/* Logo */}
           <div className="flex justify-center mb-8 animate-fade-up">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-accent/20 blur-2xl animate-pulse-ring" />
-              <Image
-                src={profile.avatar}
-                alt={profile.name}
+              <svg
+                viewBox="0 0 112 112"
                 width={112}
                 height={112}
-                className="relative rounded-full avatar-glow"
-                unoptimized
-              />
+                className="relative avatar-glow rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label={profile.name}
+              >
+                <defs>
+                  <linearGradient id="lt-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#6366f1" />
+                    <stop offset="50%" stopColor="#818cf8" />
+                    <stop offset="100%" stopColor="#a855f7" />
+                  </linearGradient>
+                </defs>
+                <circle cx="56" cy="56" r="54" fill="#0a0a0a" stroke="url(#lt-grad)" strokeWidth="2.5" />
+                <path
+                  d="
+                    M 30 26
+                    L 30 86
+                    L 42 86
+                    L 42 56
+                    L 82 56
+                    L 82 44
+                    L 42 44
+                    L 42 26
+                    Z
+                  "
+                  fill="url(#lt-grad)"
+                />
+              </svg>
             </div>
           </div>
 
