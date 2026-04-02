@@ -192,33 +192,33 @@ export default function Header() {
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2 group">
               <motion.div
-                className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden"
+                className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden"
                 style={{
                   background: "linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary))",
                 }}
                 whileHover={{ rotate: 12, scale: 1.1 }}
               >
-                <svg width={22} height={22} viewBox="0 0 100 100" fill="none">
+                <svg width={32} height={32} viewBox="0 0 100 100" fill="none">
                   {/* Camel body */}
-                  <ellipse cx="50" cy="58" rx="22" ry="14" fill="rgba(0,0,0,0.15)" />
+                  <ellipse cx="50" cy="60" rx="22" ry="12" fill="rgba(255,255,255,0.3)" />
                   {/* Hump */}
-                  <ellipse cx="58" cy="44" rx="8" ry="10" fill="rgba(0,0,0,0.15)" />
+                  <ellipse cx="56" cy="46" rx="9" ry="11" fill="rgba(255,255,255,0.35)" />
                   {/* Head */}
-                  <circle cx="32" cy="42" r="6" fill="rgba(0,0,0,0.15)" />
+                  <circle cx="30" cy="42" r="7" fill="rgba(255,255,255,0.3)" />
                   {/* Neck */}
-                  <path d="M36 48 Q34 44 36 38" stroke="rgba(0,0,0,0.15)" strokeWidth="4" fill="none" strokeLinecap="round" />
+                  <path d="M35 50 Q33 44 35 36" stroke="rgba(255,255,255,0.3)" strokeWidth="5" fill="none" strokeLinecap="round" />
                   {/* Legs */}
-                  <rect x="36" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
-                  <rect x="44" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
-                  <rect x="54" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
-                  <rect x="62" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
+                  <rect x="35" y="68" width="4" height="14" rx="2" fill="rgba(255,255,255,0.25)" />
+                  <rect x="43" y="68" width="4" height="14" rx="2" fill="rgba(255,255,255,0.25)" />
+                  <rect x="53" y="68" width="4" height="14" rx="2" fill="rgba(255,255,255,0.25)" />
+                  <rect x="61" y="68" width="4" height="14" rx="2" fill="rgba(255,255,255,0.25)" />
                   {/* Tail */}
-                  <path d="M72 52 Q78 48 76 40" stroke="rgba(0,0,0,0.15)" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                  <path d="M72 54 Q78 48 76 38" stroke="rgba(255,255,255,0.3)" strokeWidth="3" fill="none" strokeLinecap="round" />
                   {/* L */}
-                  <path d="M20 20 L20 42 L30 42" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M18 16 L18 36 L28 36" stroke="white" strokeWidth="5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
                   {/* T */}
-                  <path d="M40 20 L56 20" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" />
-                  <path d="M48 20 L48 42" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" />
+                  <path d="M38 16 L54 16" stroke="white" strokeWidth="5" fill="none" strokeLinecap="round" />
+                  <path d="M46 16 L46 36" stroke="white" strokeWidth="5" fill="none" strokeLinecap="round" />
                 </svg>
               </motion.div>
               <span
@@ -246,6 +246,45 @@ export default function Header() {
 
             {/* Right side */}
             <div className="flex items-center gap-2 sm:gap-3">
+              {/* Contact Icons */}
+              <div className="hidden md:flex items-center gap-1">
+                <motion.a
+                  href={`mailto:${profile.email}`}
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="w-9 h-9 rounded-lg flex items-center justify-center border transition-all duration-300"
+                  style={{
+                    background: "var(--color-surface)",
+                    borderColor: "var(--color-border)",
+                    color: "var(--color-text-secondary)",
+                  }}
+                  aria-label="Email"
+                >
+                  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <rect width={20} height={16} x={2} y={4} rx={2} />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                </motion.a>
+                <motion.a
+                  href={profile.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="w-9 h-9 rounded-lg flex items-center justify-center border transition-all duration-300"
+                  style={{
+                    background: "var(--color-surface)",
+                    borderColor: "var(--color-border)",
+                    color: "var(--color-text-secondary)",
+                  }}
+                  aria-label="Facebook"
+                >
+                  <svg width={16} height={16} viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                </motion.a>
+              </div>
+
               <ThemeSwitcher />
 
               {/* Mobile menu button */}
