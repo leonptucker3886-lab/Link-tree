@@ -328,10 +328,10 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 pt-20 pb-8 md:hidden overflow-y-auto"
+            className="fixed inset-0 z-40 pt-20 md:hidden overflow-y-auto"
             style={{ background: "var(--color-bg-glass)", backdropFilter: "blur(20px)" }}
           >
-            <nav className="flex flex-col items-center gap-4 p-8">
+            <nav className="flex flex-col items-center gap-3 p-6">
               {navLinks.map((link, i) => (
                 <motion.a
                   key={link.href}
@@ -345,15 +345,15 @@ export default function Header() {
                   }}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.1 }}
-                  className="text-lg font-medium py-2"
+                  transition={{ delay: i * 0.08 }}
+                  className="text-base font-medium py-1.5"
                   style={{ color: "var(--color-text)" }}
                 >
                   {link.label}
                 </motion.a>
               ))}
               {/* Mobile Contact Icons */}
-              <div className="flex flex-col items-center gap-2 mt-6 pt-6" style={{ borderTop: "1px solid var(--color-border)" }}>
+              <div className="flex flex-col items-center gap-2 mt-5 pt-5" style={{ borderTop: "1px solid var(--color-border)" }}>
                 <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: "var(--color-text-muted)" }}>Contact Me</p>
                 <div className="flex items-center gap-4">
                   <motion.a
