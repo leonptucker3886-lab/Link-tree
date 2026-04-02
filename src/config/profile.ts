@@ -2,8 +2,8 @@ export const profile = {
   name: "Leon Tucker",
   title: "Full-Stack Creator",
   tagline: "Crafting digital experiences with code, creativity, and a dash of AI magic.",
-  email: "leon@example.com",
-  facebook: "https://facebook.com/leontucker",
+  email: "leonptucker3886@gmail.com",
+  facebook: "https://facebook.com/guycalledl",
   location: "San Francisco, CA",
   bio: "I'm a full-stack creator who loves building products that push boundaries. From AI-powered tools to real-time collaborative platforms, I thrive at the intersection of clean code and creative problem-solving. Currently exploring the bleeding edge of web tech — WebGL, edge computing, and generative AI.",
   skills: [

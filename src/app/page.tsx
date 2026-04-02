@@ -42,7 +42,7 @@ export default function Home() {
 
       {/* Floating Hire Me button - mobile only */}
       <motion.a
-        href="mailto:leon@example.com"
+        href="mailto:leonptucker3886@gmail.com"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.5, duration: 0.5 }}
