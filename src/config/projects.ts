@@ -14,7 +14,7 @@ export const projects: Project[] = [
   {
     id: "ai-studio-lab",
     name: "AI Studio Lab",
-    description: "Generators, Voice Changers — AI tools with zero gatekeeping.",
+    description: "Generators, Voice Changers — built for creators, not haters.",
     longDescription: "A creative AI toolkit featuring generators, voice changers, and more. Built for creators who want power without the gatekeeping. No fluff, no paywalls, just tools that work.",
     techStack: ["Next.js", "TypeScript", "AI/ML", "Tailwind CSS"],
     demoUrl: "https://ai-peach-gamma.vercel.app/",
