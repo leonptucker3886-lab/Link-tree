@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
+import MiniGames from "@/components/MiniGames";
+import Camel from "@/components/Camel";
 import Footer from "@/components/Footer";
 import ParticleBackground from "@/components/ParticleBackground";
 import CursorFollower from "@/components/CursorFollower";
@@ -31,6 +33,10 @@ export default function Home() {
         <Hero />
         <SectionDivider />
         <Projects />
+        <SectionDivider />
+        <MiniGames />
+        <SectionDivider />
+        <Camel />
         <Footer />
       </div>
     </main>
