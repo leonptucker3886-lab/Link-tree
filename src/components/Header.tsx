@@ -192,14 +192,34 @@ export default function Header() {
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2 group">
               <motion.div
-                className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-sm"
+                className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden"
                 style={{
                   background: "linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary))",
-                  color: "var(--color-bg)",
                 }}
                 whileHover={{ rotate: 12, scale: 1.1 }}
               >
-                LT
+                <svg width={22} height={22} viewBox="0 0 100 100" fill="none">
+                  {/* Camel body */}
+                  <ellipse cx="50" cy="58" rx="22" ry="14" fill="rgba(0,0,0,0.15)" />
+                  {/* Hump */}
+                  <ellipse cx="58" cy="44" rx="8" ry="10" fill="rgba(0,0,0,0.15)" />
+                  {/* Head */}
+                  <circle cx="32" cy="42" r="6" fill="rgba(0,0,0,0.15)" />
+                  {/* Neck */}
+                  <path d="M36 48 Q34 44 36 38" stroke="rgba(0,0,0,0.15)" strokeWidth="4" fill="none" strokeLinecap="round" />
+                  {/* Legs */}
+                  <rect x="36" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
+                  <rect x="44" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
+                  <rect x="54" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
+                  <rect x="62" y="68" width="3" height="14" rx="1.5" fill="rgba(0,0,0,0.15)" />
+                  {/* Tail */}
+                  <path d="M72 52 Q78 48 76 40" stroke="rgba(0,0,0,0.15)" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                  {/* L */}
+                  <path d="M20 20 L20 42 L30 42" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  {/* T */}
+                  <path d="M40 20 L56 20" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" />
+                  <path d="M48 20 L48 42" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" />
+                </svg>
               </motion.div>
               <span
                 className="font-semibold text-sm tracking-tight hidden sm:block transition-colors duration-300"
