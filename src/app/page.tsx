@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import MiniGames from "@/components/MiniGames";
 import Camel from "@/components/Camel";
+import Services from "@/components/Services";
 import Footer from "@/components/Footer";
 import ParticleBackground from "@/components/ParticleBackground";
 import CursorFollower from "@/components/CursorFollower";
@@ -37,6 +38,8 @@ export default function Home() {
         <MiniGames />
         <SectionDivider />
         <Camel />
+        <SectionDivider />
+        <Services />
         <Footer />
       </div>
     </main>
