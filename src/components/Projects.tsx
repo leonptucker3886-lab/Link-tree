@@ -31,7 +31,7 @@ export default function Projects() {
             className="text-3xl sm:text-4xl font-bold tracking-tight mb-4"
             style={{ color: "var(--color-text)" }}
           >
-            Projects I&apos;ve Built
+            Examples of Geekdom
           </h2>
           <p
             className="text-base sm:text-lg max-w-xl mx-auto"

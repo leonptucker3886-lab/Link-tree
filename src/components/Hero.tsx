@@ -147,7 +147,7 @@ export default function Hero() {
           className="text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
           style={{ color: "var(--color-text-secondary)" }}
         >
-          {profile.tagline}
+          I love doing the geeky nonsense that you don&apos;t want to do.
         </motion.p>
 
         {/* CTA buttons */}
@@ -159,17 +159,6 @@ export default function Hero() {
         >
           <a href="#projects" className="hire-btn text-sm sm:text-base">
             <span>View My Work</span>
-          </a>
-          <a
-            href="#contact"
-            className="px-6 py-3 rounded-xl text-sm sm:text-base font-semibold border transition-all duration-300 hover:scale-105"
-            style={{
-              borderColor: "var(--color-border-hover)",
-              color: "var(--color-text)",
-              background: "var(--color-surface)",
-            }}
-          >
-            Get in Touch
           </a>
         </motion.div>
 
