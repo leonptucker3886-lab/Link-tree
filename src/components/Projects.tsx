@@ -39,6 +39,12 @@ export default function Projects() {
           >
             A peek under the hood — live demos of what I&apos;ve been forging. Need something built for your biz, your workflow, or a ruff app for your dog 🐕? Let&apos;s talk.
           </p>
+          <p
+            className="text-xs mt-4 max-w-md mx-auto"
+            style={{ color: "var(--color-text-muted)" }}
+          >
+            These are live prototypes — some rough edges, all real code. Think of them as proof of concept, not polished products (yet).
+          </p>
         </motion.div>
 
         {/* Project grid */}
