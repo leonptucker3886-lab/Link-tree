@@ -33,13 +33,13 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <SectionDivider />
+        <Services />
+        <SectionDivider />
         <Projects />
         <SectionDivider />
         <MiniGames />
         <SectionDivider />
         <Camel />
-        <SectionDivider />
-        <Services />
         <Footer />
       </div>
     </main>
