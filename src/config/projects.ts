@@ -12,14 +12,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "ai-peach",
-    name: "AI Peach",
-    description: "AI-powered application built with modern web technologies.",
-    longDescription: "An innovative AI-powered web application showcasing the latest in artificial intelligence and web development. Built with a focus on user experience and cutting-edge technology.",
+    id: "ai-studio-lab",
+    name: "AI Studio Lab",
+    description: "Generators, Voice Changers — Zero AI player haters.",
+    longDescription: "A creative AI toolkit featuring generators, voice changers, and more. Built for creators who want power without the gatekeeping. No fluff, no paywalls, just tools that work.",
     techStack: ["Next.js", "TypeScript", "AI/ML", "Tailwind CSS"],
     demoUrl: "https://ai-peach-gamma.vercel.app/",
-    githubUrl: "https://github.com/leontucker/ai-peach",
-    image: "/projects/ai-peach.svg",
+    githubUrl: "https://github.com/leontucker/ai-studio-lab",
+    image: "/projects/ai-studio-lab.svg",
     accent: "#f472b6",
   },
   {
