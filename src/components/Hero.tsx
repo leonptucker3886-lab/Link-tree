@@ -135,7 +135,7 @@ export default function Hero() {
               backgroundImage: "linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary), var(--color-accent))",
             }}
           >
-            {`< Developer />`}
+            {`< Creator />`}
           </span>
         </motion.h1>
 

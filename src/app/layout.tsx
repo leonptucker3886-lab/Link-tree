@@ -16,14 +16,14 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leon Tucker | Developer",
+  title: "Leon Tucker | Creator",
   description:
-    "Full-Stack Developer — Building modern digital experiences with code, creativity, and AI.",
-  keywords: ["developer", "full-stack", "portfolio", "web development", "React", "Next.js"],
+    "Full-Stack Creator — Building modern digital experiences with code, creativity, and AI.",
+  keywords: ["creator", "full-stack", "portfolio", "web development", "React", "Next.js"],
   authors: [{ name: "Leon Tucker" }],
   openGraph: {
-    title: "Leon Tucker | Developer",
-    description: "Full-Stack Developer — Building modern digital experiences.",
+    title: "Leon Tucker | Creator",
+    description: "Full-Stack Creator — Building modern digital experiences.",
     type: "website",
   },
 };

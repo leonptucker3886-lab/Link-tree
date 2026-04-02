@@ -24,7 +24,7 @@ export default function About() {
             className="text-3xl sm:text-4xl font-bold tracking-tight mb-4"
             style={{ color: "var(--color-text)" }}
           >
-            The Developer Behind the Code
+            The Creator Behind the Code
           </h2>
         </motion.div>
 
