@@ -12,6 +12,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "narcassist-generator",
+    name: "Narcassist Generator",
+    description: "A tool to see how a Narcassist would react to a scenario and other tools.",
+    longDescription: "Under any given scenario you can input custom scenario or run a lightning fast preset.",
+    techStack: ["React", "JavaScript", "CSS", "Vercel"],
+    demoUrl: "https://v0-narcassist-response-git-c07ce9-leonptucker3886-labs-projects.vercel.app/",
+    githubUrl: "https://github.com/leontucker/narcassist",
+    image: "/projects/narcassist.svg",
+    accent: "#8b5cf6",
+  },
+  {
     id: "dr-resolve",
     name: "Dr Resolve",
     description: "The only way to settle an argument with Dr Resolve, the AI Dr Phil.",
@@ -43,16 +54,5 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/leontucker/ai-studio-lab",
     image: "/projects/ai-studio-lab.svg",
     accent: "#f472b6",
-  },
-  {
-    id: "narcassist-generator",
-    name: "Narcassist Generator",
-    description: "A tool to see how a Narcassist would react to a scenario and other tools.",
-    longDescription: "Under any given scenario you can input custom scenario or run a lightning fast preset.",
-    techStack: ["React", "JavaScript", "CSS", "Vercel"],
-    demoUrl: "https://v0-narcassist-response-git-c07ce9-leonptucker3886-labs-projects.vercel.app/",
-    githubUrl: "https://github.com/leontucker/narcassist",
-    image: "/projects/narcassist.svg",
-    accent: "#8b5cf6",
   },
 ];
