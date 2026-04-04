@@ -48,7 +48,7 @@ export const projects: Project[] = [
     id: "narcassist-generator",
     name: "Narcassist Generator",
     description: "A tool to see how a Narcassist would react to a scenario and other tools.",
-    longDescription: "Tool used to inspect scenarios. Life is easy. People complicate it.",
+    longDescription: "Under any given scenario you can input custom scenario or run a lightning fast preset.",
     techStack: ["React", "JavaScript", "CSS", "Vercel"],
     demoUrl: "https://v0-narcassist-response-git-c07ce9-leonptucker3886-labs-projects.vercel.app/",
     githubUrl: "https://github.com/leontucker/narcassist",
