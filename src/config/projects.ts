@@ -47,7 +47,7 @@ export const projects: Project[] = [
   {
     id: "narcassist-generator",
     name: "Narcassist Generator",
-    description: "What should a Narc say?",
+    description: "A tool to see how a Narcassist would react to a scenario and other tools.",
     longDescription: "A cheeky generator that dishes out classic narcissistic phrases on demand. Perfect for laughs, parody, or understanding manipulation patterns. Because sometimes you just need to see the playbook.",
     techStack: ["React", "JavaScript", "CSS", "Vercel"],
     demoUrl: "https://v0-narcassist-response-git-c07ce9-leonptucker3886-labs-projects.vercel.app/",
