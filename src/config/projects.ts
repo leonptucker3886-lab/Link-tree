@@ -12,23 +12,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "ivy-peace",
-    name: "Ivy Peace",
-    description: "A coloring book generator of badassery.",
-    longDescription: "An imaginative coloring book generator that transforms prompts into badass illustrations. Combines creative AI techniques with a slick interface for generating unique, edgy coloring pages.",
-    techStack: ["React", "JavaScript", "CSS", "Vercel"],
-    demoUrl: "https://ivywheel.vercel.app/",
-    githubUrl: "https://github.com/leontucker/ivy-peace",
-    image: "/projects/ivy-peace.svg",
-    accent: "#8b5cf6",
-  },
-  {
     id: "dr-resolve",
     name: "Dr Resolve",
     description: "The only way to settle an argument with Dr Resolve, the AI Dr Phil.",
     longDescription: "The only way to settle an argument — Dr Resolve is the AI-powered Dr Phil that helps you navigate disputes with wit and wisdom. Drop in your conflict, get real talk back.",
     techStack: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
-    demoUrl: "https://vercel.com/leonptucker3886-labs-projects/conflict-resolution",
+    demoUrl: "https://conflict-resolution-lilac.vercel.app/",
     githubUrl: "https://github.com/leontucker/dr-resolve",
     image: "/projects/dr-resolve.svg",
     accent: "#10b981",
@@ -54,5 +43,16 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/leontucker/ai-studio-lab",
     image: "/projects/ai-studio-lab.svg",
     accent: "#f472b6",
+  },
+  {
+    id: "narcassist-generator",
+    name: "Narcassist Generator",
+    description: "What should a Narc say?",
+    longDescription: "A cheeky generator that dishes out classic narcissistic phrases on demand. Perfect for laughs, parody, or understanding manipulation patterns. Because sometimes you just need to see the playbook.",
+    techStack: ["React", "JavaScript", "CSS", "Vercel"],
+    demoUrl: "https://narcassist.vercel.app/",
+    githubUrl: "https://github.com/leontucker/narcassist",
+    image: "/projects/narcassist.svg",
+    accent: "#8b5cf6",
   },
 ];
